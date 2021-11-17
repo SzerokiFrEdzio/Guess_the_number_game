@@ -1,7 +1,8 @@
 import random
+rn = random.randrange(11)
 while True:
     print("Guess what number I'm thinking of... ")
-    rn = random.randrange(11)
+    
     choice = int(input('Guess: '))
     if choice == rn:
         print('Mindreader...')
